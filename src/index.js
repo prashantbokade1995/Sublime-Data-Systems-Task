@@ -1,13 +1,20 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
+// import App from './App';
 import reportWebVitals from './reportWebVitals';
+import TaskApp from './Task/TaskApp';
+// import App from './simpleRedux/App';
+// import App from './Newredux/App';
+// import App from './RRD/components/App';
+
+// import TodoApp from './todo/TodoApp';
+// import TodoApp from './Todo';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <TaskApp />
   </React.StrictMode>
 );
 
